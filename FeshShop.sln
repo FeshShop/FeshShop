@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Identity", "..\Fes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Common", "..\FeshShop.Common\src\FeshShop.Common\FeshShop.Common.csproj", "{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Products", "..\FeshShop.Products\src\FeshShop.Products\FeshShop.Products.csproj", "{218D5D87-F2C9-45A0-811A-DB711AE9E555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218D5D87-F2C9-45A0-811A-DB711AE9E555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218D5D87-F2C9-45A0-811A-DB711AE9E555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218D5D87-F2C9-45A0-811A-DB711AE9E555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218D5D87-F2C9-45A0-811A-DB711AE9E555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
