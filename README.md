@@ -25,3 +25,8 @@ Or using infrastructure docker compose (`infrastructure-compose.yml`)
 ```docker
 docker-compose -p MY_PROJECT_NAME  -f infrastructure-compose.yml up -d
 ```
+
+Or you can run the whole application with command (`docker-compose.yml`):
+```
+docker-compose -p MY_PROJECT_NAME  -f docker-compose.yml up -d
+```
