@@ -13,6 +13,7 @@ services:
 
 networks:
    feshshop-infrastructure:
+    name: feshshop-infrastructure
 
 volumes:
   mongo:
