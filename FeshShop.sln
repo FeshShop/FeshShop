@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31320.298
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Identity", "..\FeshShop.Identity\src\FeshShop.Identity\FeshShop.Identity.csproj", "{52E0DEF9-A770-4D14-9F3D-2121CE1A4A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Identity", "FeshShop.Identity\src\FeshShop.Identity\FeshShop.Identity.csproj", "{52E0DEF9-A770-4D14-9F3D-2121CE1A4A77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Common", "..\FeshShop.Common\src\FeshShop.Common\FeshShop.Common.csproj", "{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Common", "FeshShop.Common\src\FeshShop.Common\FeshShop.Common.csproj", "{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Products", "..\FeshShop.Products\src\FeshShop.Products\FeshShop.Products.csproj", "{218D5D87-F2C9-45A0-811A-DB711AE9E555}"
 EndProject

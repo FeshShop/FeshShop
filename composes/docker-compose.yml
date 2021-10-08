@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo:4
+    container_name: mongo
+    ports:
+      - 27017:27017
+    networks:
+      - feshshop-network
+    volumes:
+      - mongo:/data/db
+
+  identity:
+    image: stoyanov7/feshshop.identity:latest
+    container_name: identity
+    ports: 
+      - "5001:80"
+    environment:
+      - MongoDbSettings__ConnectionString=mongodb://mongo:27017
+    restart: on-failure
+    depends_on:
+      - mongo
+    volumes:
+      - ./.aspnet/identity/DataProtection-Keys:/root/.aspnet/DataProtection-Keys
+    networks: 
+      - feshshop-network
+
+networks:
+  feshshop-network:
+    driver: bridge
+volumes:
+  mongo:
+    driver: local
