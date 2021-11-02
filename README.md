@@ -16,7 +16,7 @@ Clone the main repository. Moreover, in the `scripts` directory, you will find t
 Database layer:
 - [MongoDB](https://www.mongodb.com)
 
-You can run it with single docker command
+You can run mongo database it with single docker command
 ```docker
 docker run --name mongo -d -p 27017:27017 mongo:4
 ```
@@ -24,4 +24,9 @@ docker run --name mongo -d -p 27017:27017 mongo:4
 Or using infrastructure docker compose (`infrastructure-compose.yml`)
 ```docker
 docker-compose -p MY_PROJECT_NAME  -f infrastructure-compose.yml up -d
+```
+
+Or you can run the whole application with command (`docker-compose.yml`):
+```
+docker-compose -p MY_PROJECT_NAME  -f docker-compose.yml up -d
 ```
