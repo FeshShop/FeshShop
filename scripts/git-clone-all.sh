@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSITORIES=(FeshShop.Common FeshShop.Identity FeshShop.Products)
+REPOSITORIES=(FeshShop.Common FeshShop.Identity FeshShop.Products FeshShop.Customers)
 
 if [ "$1" = "-p" ]
   then
