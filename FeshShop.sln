@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31320.298
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Identity", "..\FeshShop.Identity\src\FeshShop.Identity\FeshShop.Identity.csproj", "{52E0DEF9-A770-4D14-9F3D-2121CE1A4A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Identity", "FeshShop.Identity\src\FeshShop.Identity\FeshShop.Identity.csproj", "{52E0DEF9-A770-4D14-9F3D-2121CE1A4A77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Common", "..\FeshShop.Common\src\FeshShop.Common\FeshShop.Common.csproj", "{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Common", "FeshShop.Common\src\FeshShop.Common\FeshShop.Common.csproj", "{65DD6B94-6E4C-40DB-96E4-2F92B72A0100}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Products", "..\FeshShop.Products\src\FeshShop.Products\FeshShop.Products.csproj", "{EB43C8C2-8C28-425F-A1BA-414249026DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Products", "FeshShop.Products\src\FeshShop.Products\FeshShop.Products.csproj", "{EB43C8C2-8C28-425F-A1BA-414249026DA3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Customers", "..\FeshShop.Customers\src\FeshShop.Customers\FeshShop.Customers.csproj", "{556696AD-45A1-4AE3-8335-47742C75F234}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Customers", "FeshShop.Customers\src\FeshShop.Customers\FeshShop.Customers.csproj", "{556696AD-45A1-4AE3-8335-47742C75F234}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Discounts", "..\FeshShop.Discounts\src\FeshShop.Discounts\FeshShop.Discounts.csproj", "{3093A873-B47D-4AA5-A47A-7E62527F3887}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.Discounts", "FeshShop.Discounts\src\FeshShop.Discounts\FeshShop.Discounts.csproj", "{3093A873-B47D-4AA5-A47A-7E62527F3887}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeshShop.ApiGateway", "FeshShop.ApiGateway\src\FeshShop.ApiGateway\FeshShop.ApiGateway.csproj", "{13010E92-691B-4901-AB0D-FD6439D677AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3093A873-B47D-4AA5-A47A-7E62527F3887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3093A873-B47D-4AA5-A47A-7E62527F3887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3093A873-B47D-4AA5-A47A-7E62527F3887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13010E92-691B-4901-AB0D-FD6439D677AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13010E92-691B-4901-AB0D-FD6439D677AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13010E92-691B-4901-AB0D-FD6439D677AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13010E92-691B-4901-AB0D-FD6439D677AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
