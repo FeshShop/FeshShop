@@ -9,6 +9,8 @@ Clone the main repository. Moreover, in the `scripts` directory, you will find t
 - [FeshShop](https://github.com/FeshShop/FeshShop)
 - [FeshShop Identity](https://github.com/FeshShop/FeshShop.Identity)
 - [FeshShop Products](https://github.com/FeshShop/FeshShop.Products)
+- [FeshShop Discounts](https://github.com/FeshShop/FeshShop.Discounts)
+- [FeshShop ApiGateway](https://github.com/FeshShop/FeshShop.ApiGateway)
 - [FeshShop Common](https://github.com/FeshShop/FeshShop.Common)
 
 **How to start the solution?**
